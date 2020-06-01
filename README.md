@@ -1,4 +1,9 @@
-# Codigointeractivo
+# Ejercicio con los diferentes Data Binding de Angular
+
+## Data Binding de Interpolación
+## Data Binding de Propiedad
+## Two-Way Binding con el ng-Model
+## Data Binding de evento
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
