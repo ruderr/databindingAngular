@@ -1,0 +1,43 @@
+<section id="uno">
+    <h1>
+        Data Binding
+    </h1>
+    <p><u>Data Binding de Interpolación:</u> Ej: muestro valor de variable: {{ titulo }}</p>
+    <p><u>Data Binding de Propiedad:</u> Ej: {{ datoshijo | json }}</p>
+    <p><u>Data Binding Doble:</u> Ej: </p>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class=col-6>
+                <div class="form-group">
+                    <label for="user">Nombre:</label>
+                    <Input type="text" [(ngModel)]="usuario.Nombre" ngDefaultControl class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="user">Apellido:</label>
+                    <Input type="text" [(ngModel)]="usuario.Apellido" ngDefaultControl class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="user">Edad:</label>
+                    <Input type="text" [(ngModel)]="usuario.Edad" ngDefaultControl class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="user">Documento:</label>
+                    <Input type="text" [(ngModel)]="usuario.Documento" ngDefaultControl class="form-control">
+                </div>
+                <button type="button" (click)="eventoBoton()" class="btn btn-primary btn-block">Evento Angular</button>
+            </div>
+            <div class=col-6>
+                {{ usuario | json }}
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <p><u>Data Binding de Evento:</u> Ej: </p>
+</section>
+<section id="dos">
+    Contenido de la sección 2
+</section>
+<section id="tres">
+    Contenido de la sección 3
+</section>
